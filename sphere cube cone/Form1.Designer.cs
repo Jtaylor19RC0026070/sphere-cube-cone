@@ -49,6 +49,7 @@
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.textBox4 = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -87,11 +88,11 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(143, 295);
+            this.button1.Location = new System.Drawing.Point(186, 295);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(163, 62);
+            this.button1.Size = new System.Drawing.Size(102, 45);
             this.button1.TabIndex = 4;
-            this.button1.Text = "button1";
+            this.button1.Text = "Calculate";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -157,26 +158,26 @@
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(347, 271);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(35, 13);
+            this.label4.Size = new System.Drawing.Size(48, 13);
             this.label4.TabIndex = 3;
-            this.label4.Text = "label4";
+            this.label4.Text = "Volume=";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(146, 267);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(35, 13);
+            this.label3.Size = new System.Drawing.Size(40, 13);
             this.label3.TabIndex = 2;
-            this.label3.Text = "label3";
+            this.label3.Text = "Length";
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(202, 314);
+            this.button2.Location = new System.Drawing.Point(202, 309);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(119, 45);
+            this.button2.Size = new System.Drawing.Size(102, 45);
             this.button2.TabIndex = 1;
-            this.button2.Text = "button2";
+            this.button2.Text = "Calculate";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
@@ -192,6 +193,7 @@
             // 
             // tabPage3
             // 
+            this.tabPage3.Controls.Add(this.label7);
             this.tabPage3.Controls.Add(this.textBox4);
             this.tabPage3.Controls.Add(this.button3);
             this.tabPage3.Controls.Add(this.label6);
@@ -209,11 +211,11 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(204, 326);
+            this.button3.Location = new System.Drawing.Point(204, 315);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(121, 46);
+            this.button3.Size = new System.Drawing.Size(109, 34);
             this.button3.TabIndex = 7;
-            this.button3.Text = "button3";
+            this.button3.Text = "Calculate ";
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
@@ -222,18 +224,18 @@
             this.label6.AutoSize = true;
             this.label6.Location = new System.Drawing.Point(328, 278);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(35, 13);
+            this.label6.Size = new System.Drawing.Size(48, 13);
             this.label6.TabIndex = 6;
-            this.label6.Text = "label6";
+            this.label6.Text = "Volume=";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(150, 252);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(22, 13);
+            this.label5.Size = new System.Drawing.Size(40, 13);
             this.label5.TabIndex = 5;
-            this.label5.Text = "rad";
+            this.label5.Text = "Radius";
             // 
             // textBox3
             // 
@@ -258,6 +260,15 @@
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(100, 20);
             this.textBox4.TabIndex = 8;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(150, 278);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(38, 13);
+            this.label7.TabIndex = 9;
+            this.label7.Text = "Height";
             // 
             // Form1
             // 
@@ -303,6 +314,7 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.Label label7;
     }
 }
 
