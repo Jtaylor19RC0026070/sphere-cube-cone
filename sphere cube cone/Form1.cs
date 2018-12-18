@@ -41,21 +41,23 @@ namespace sphere_cube_cone
         {
             try
             {
-                double 1 = double.Parse(textBox2.Text);
-                double ans2 = 1 * 1 * 1;
+                double l = double.Parse(textBox2.Text);
+                double ans2 = l * l * l;
                 label4.Text = "Volume = " + ans2.ToString("0.00");
             }
             catch
             {
                 MessageBox.Show("Enter a number");
             }
+        }
+
         private void button3_Click(object sender, EventArgs e)
         {
             try
             {
-                double i = double.Parse(textBox3.Text);
+                double i = double.Parse(textBox4.Text);
                 double h = double.Parse(textBox3.Text);
-                double ans3 = 1.0 / 3.0 * Math.PI * r1 * r1 * h / 3.0;
+                double ans3 = 1.0 / 3.0 * Math.PI * i * i * h / 3.0;
                 label6.Text = "Volume = " + ans3.ToString("0.00");
             }
             catch
