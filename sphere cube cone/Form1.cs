@@ -39,16 +39,21 @@ namespace sphere_cube_cone
 
         private void button2_Click(object sender, EventArgs e)
         {
-            
-            
-
-        }
-
+            try
+            {
+                double 1 = double.Parse(textBox2.Text);
+                double ans2 = 1 * 1 * 1;
+                label4.Text = "Volume = " + ans2.ToString("0.00");
+            }
+            catch
+            {
+                MessageBox.Show("Enter a number");
+            }
         private void button3_Click(object sender, EventArgs e)
         {
             try
             {
-                double i = double.Parse(textBox2.Text);
+                double i = double.Parse(textBox3.Text);
                 double h = double.Parse(textBox3.Text);
                 double ans3 = 1.0 / 3.0 * Math.PI * r1 * r1 * h / 3.0;
                 label6.Text = "Volume = " + ans3.ToString("0.00");
