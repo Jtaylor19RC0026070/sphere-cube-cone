@@ -24,7 +24,18 @@ namespace sphere_cube_cone
 
         private void button1_Click(object sender, EventArgs e)
         {
+            try
+            {
+                double r = double.Parse(textBox1.Text);
+                double ans1 = 4.0 / 3.0 * Math.PI * r * r * r;
+                label1.Text = "Volue = " + ans1.ToString("0.00");
 
+            }
+            catch
+            {
+                MessageBox.Show("Enter a nuber");
+            }
         }
     }
 }
+
