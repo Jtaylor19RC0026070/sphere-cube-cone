@@ -16,5 +16,15 @@ namespace sphere_cube_cone
         {
             InitializeComponent();
         }
+
+        private void tabPage3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
